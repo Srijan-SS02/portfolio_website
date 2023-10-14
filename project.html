@@ -33,42 +33,30 @@
 
         .container {
             max-width: auto;
-            margin: 0 auto;
+            margin: 0 100px;
             padding: 20px;
+            color: #0eb2e9f6;
+            text-align: left;
         }
 
-        .profile-image {
-            max-width: 200px;
-            border-radius: 50%;
-            margin: 0 auto;
-            display: block;
-        }
-
-        .profile-name {
-            font-size: 44px;
-            margin: 67px 0;
-            color: white;
-        }
-        .profile-name a{
-            text-decoration: none;
-            color: #00bfff;
-        }
-    
-
-        .about-me {
-            margin: 20px 0;
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 25px;
-        }
-        
-        .about-me a{
+        .container a{
             text-decoration: none;
             color: #0eb2e9f6;
-        }
-        .green-heart {
-            color: green;
             font-size: 40px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            line-height: 60px;
+        }
+
+        .container ul{
+            color: whitesmoke;
+            font-size: 25px;
+            margin-left: 60px;
+            line-height: 50px;
+        }
+
+        #title{
+            font-size: 70px;
+            font-family:fantasy;
         }
 
     </style>
@@ -76,8 +64,8 @@
 <body>
     <nav>
         <div class="left-links">
+            <a href="index.html"><b>Home</b></a>
             <a href="blog.html"><b>Blog</b></a>
-            <a href="project.html"><b>Projects</b></a>
             <a href="#meetups"><b>Meetups</b></a>
             <a href="#opensource"><b>Contributions</b></a>
         </div>
@@ -99,21 +87,41 @@
             </a>
         </div>
     </nav>
-    <div class="container">
-        <!-- <img class="profile-image" src="image/img3.png" alt="profile-image"> -->
-        <h1 class="profile-name">Hey! I'm <a href="https://github.com/Srijan-SS02" >@Srijan-SS02</a> <b>(Srijan Srivastava)</b></h1>
-    </div>
-    <div class="about-me">
-        <p>I'm a passionate software developer from India &#x1F1EE;&#x1F1F3</p>
-        <p>Third year B.Tech, IT &#x1F4BB; Student.</p>
-        <p>I <span class="green-heart">&#9829;</span> Open Source, and I'm a fervent advocate for the open-source community.</p>
-        <p>To demonstrate my love and dedication to communities &#x1F46B;, I spend my time actively volunteering &#x1F917; in tech events.</p>
-        <p>LINUX &#128039; </p>
-        <p>&#x1F680; Curently working on <b><a href="https://github.com/Srijan-SS02/dockit">dockit</a></b>, OpenSource CLI tool to automate Containerization &#x1F680;</p>
-        <p>I like building things and developers tools with Go, Python, Docker, Kubernetes, Jenkins, C, SQL databases, Django, git-github;<br>
-        deeply passionate for DevOps &#8734; and creating tools for it! &#x1F433;</p>
-        <p><b>Open to Work &#127760;</b>, and collab for projects &#x1F91D;</p>
-        <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style: italic;">Let's Connect!</p>
+    <div class="container" >
+        </html>
+        <h2 id="title">Projects -</h2>
+
+        <p> <a href="https://github.com/Srijan-SS02/dockit">1.&nbsp <b> dockit</b> </a></p>
+        <ul>
+            <li>OpenSourced Command line tool written in golang to quickly generate Dcockerfile for different type of
+                Projects. 
+            </li>
+            <li>
+                Dockit makes it easy for the beginners to create there desired Dockerfile with just few commands provided
+                with navigation through README. 
+            </li>
+            <li>
+                It aims to automate compose as well in futute
+            </li>
+        </ul>
+
+
+        <p> <a href="https://github.com/Srijan-SS02/2048_dockerGame">2.&nbsp <b>2048_dockerGame</b> </a></p>
+        <ul>
+            <li>Popular 2048 game is installed and run into a Dockerfile hiding the complexities and then hosted
+                using AWS 
+            </li>
+        </ul>
+
+        <p> <a href="https://github.com/Srijan-SS02/DjangoCrm1">3.&nbsp <b>CRM</b> </a></p>
+        <ul>
+            <li>It is a Customer Relationship Management System with all CRUD facilities </li>
+            <li>Uses Django as backend and MySQL as database</li>
+            <li>Project provides an easy to use dashboard for the user</li>
+
+        </ul>
+
+        <!-- Add new projects here with the same format & remember to change the project number -->
     </div>
 </body>
 </html>
